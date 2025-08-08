@@ -8,6 +8,7 @@ class MyDocument extends Document {
 
     return (
       <Html lang="en" className="theme-compiled">
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
         <Head>
           <style>{`:root{${cssVars}}`}</style>
         </Head>
