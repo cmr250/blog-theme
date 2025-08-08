@@ -8,9 +8,9 @@ class MyDocument extends Document {
 
     return (
       <Html lang="en" className="theme-compiled">
-      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
         <Head>
           <style>{`:root{${cssVars}}`}</style>
+          <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
         </Head>
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
